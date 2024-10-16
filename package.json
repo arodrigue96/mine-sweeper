@@ -2,9 +2,12 @@
   "name": "mine-sweeper",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "serve public",
-    "prepare": "husky"
+    "prepare": "husky",
+    "build": "tsc",
+    "build:dev": "tsc -w"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +16,7 @@
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "husky": "^9.1.6",
-    "serve": "^14.2.3"
+    "serve": "^14.2.3",
+    "typescript": "^5.6.3"
   }
 }
