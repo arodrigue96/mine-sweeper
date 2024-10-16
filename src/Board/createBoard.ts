@@ -1,4 +1,4 @@
-import generateMine from "./generateMine.js";
+import generateMine from "../Cell/generateMine.js";
 
 const createBoard = (numberOfCellsAndRows: number): Board => {
   const board: Board = { cells: [] };
