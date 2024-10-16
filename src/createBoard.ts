@@ -12,6 +12,6 @@ const createBoard = (numberOfCellsAndRows: number): Board => {
       });
     }
   }
-  debugger;
+
   return board;
 };
