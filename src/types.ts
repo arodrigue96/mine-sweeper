@@ -1,6 +1,6 @@
 type Cell = {
   hasMine: boolean;
-  minesAround: number;
+  minesAroundTotal: number;
 };
 
 type Board = {
