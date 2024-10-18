@@ -1,4 +1,4 @@
-type Cell = {
+export type Cell = {
   hasMine: boolean;
   minesAroundTotal: number;
 };
