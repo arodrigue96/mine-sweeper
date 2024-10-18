@@ -1,4 +1,6 @@
-const hasMine = (): boolean => {
+import { Board } from "./types.js";
+
+export const hasMine = (): boolean => {
   const probability = 0.4;
 
   return Math.random() < probability;
@@ -17,5 +19,6 @@ export const createBoard = (dimension: number): Board => {
       });
     }
   }
+
   return board;
 };
