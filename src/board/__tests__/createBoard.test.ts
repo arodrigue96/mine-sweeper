@@ -1,4 +1,4 @@
-import { createBoard } from "../board";
+import { createBoard } from "../index";
 
 const dimension = 5;
 
