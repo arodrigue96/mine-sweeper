@@ -1,4 +1,4 @@
-import { Board } from "./types.js";
+import { Board } from "./types";
 
 export const hasMine = (): boolean => {
   const probability = 0.4;
