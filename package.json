@@ -1,7 +1,7 @@
 {
   "name": "mine-sweeper",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "public/index.js",
   "type": "module",
   "scripts": {
     "start": "serve public",

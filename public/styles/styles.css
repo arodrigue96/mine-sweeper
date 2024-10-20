@@ -1,3 +1,10 @@
+:root {
+  --main-color: #f2f2f2;
+  --font-border-color: #333333;
+  --main-padding: 20px;
+  --cell-size: 40px;
+}
+
 *,
 ::after,
 ::before {
@@ -7,7 +14,7 @@
 body {
   margin: 0;
   font-family: Montserrat, sans-serif;
-  color: #333333;
+  color: var(--font-border-color);
 }
 
 h1 {
@@ -17,10 +24,32 @@ h1 {
 
 .main-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  height: 61px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  border: #b0b0b0 1px solid;
+  height: 80px;
+  background-color: var(--main-color);
+  padding: var(--main-padding);
+  border: var(--font-border-color) 1px solid;
+  gap: 10px;
+}
+
+.main-container {
+  display: flex;
+  padding: var(--main-padding);
+}
+
+.board {
+  margin: 0 auto;
+}
+
+.cell {
+  display: flex;
+  padding: var(--main-padding);
+  justify-content: center;
+  background-color: var(--main-color);
+  align-items: center;
+  border: 1px solid var(--font-border-color);
+  width: var(--cell-size);
+  height: var(--cell-size);
+  cursor: pointer;
 }
